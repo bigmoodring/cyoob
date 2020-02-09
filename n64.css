@@ -45,6 +45,10 @@ body { font-family: sans-serif; }
 
 /*CUBE ROTATE*/
 
+#youtube-audio {
+	display: none;
+}
+
 .scene {
 	width: 250px;
 	height: 250px;
