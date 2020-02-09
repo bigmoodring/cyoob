@@ -54,7 +54,9 @@ body { font-family: sans-serif; }
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 200px;
+	margin-top: 100px;
+	padding: 100px;
+	border: 2px solid black;
 }
 
 .cube {
