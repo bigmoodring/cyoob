@@ -45,22 +45,23 @@ body { font-family: sans-serif; }
 
 /*CUBE ROTATE*/
 
+body, html {
+	height: 100%;
+	display: grid;
+}
+
 iframe {
 	display: none;
 }
 
 .scene {
+	position: relative;
 	width: 250px;
 	height: 250px;
 	perspective: 500px;
-	position: relative;
-	margin: auto;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 100px;
-	padding: 100px;
 	border: 2px solid black;
+	margin: auto;
+	padding: 100px;
 }
 
 .cube {
@@ -75,11 +76,6 @@ iframe {
 	width: 250px;
 	height: 250px;
 	border: 2px solid black;
-	font-weight: bold;
-	text-align: center;
-	font-size: 50px;
-	color: white;
-	line-height: 260px;
 }
 
 .cube__face--front  { background-image: linear-gradient(hsla(  0, 100%, 50%, 0.7), hsla(300, 100%, 50%, 0.7)); }
