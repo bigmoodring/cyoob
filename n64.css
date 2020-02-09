@@ -93,7 +93,7 @@ iframe {
 .cube__face--bottom { transform: rotateX(-90deg) translateZ(125px); }
 
 .cube.is-spinning {
-  animation: spinCube 8s infinite ease-in-out;
+  animation: spinCube 12s infinite linear;
 }
 
 @keyframes spinCube {
